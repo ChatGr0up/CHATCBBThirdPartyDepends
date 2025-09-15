@@ -38,7 +38,6 @@ target_link_libraries(CHATCBBThirdPartyDepends INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/boost/libboost_stacktrace_addr2line.a
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/boost/libboost_stacktrace_backtrace.a
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/boost/libboost_stacktrace_basic.a
-    ${CMAKE_CURRENT_SOURCE_DIR}/lib/boost/libboost_stacktrace_from_exception.a
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/boost/libboost_stacktrace_noop.a
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/boost/libboost_test_exec_monitor.a
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/boost/libboost_thread.a
