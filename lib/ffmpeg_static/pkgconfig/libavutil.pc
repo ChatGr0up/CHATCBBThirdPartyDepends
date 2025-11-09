@@ -1,0 +1,14 @@
+prefix=/usr/local/ffmpeg_static
+exec_prefix=${prefix}
+libdir=/usr/local/ffmpeg_static/lib
+includedir=/usr/local/ffmpeg_static/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 60.17.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -lm -ldrm -latomic -pthread -lX11
+Libs.private: 
+Cflags: -I${includedir}
